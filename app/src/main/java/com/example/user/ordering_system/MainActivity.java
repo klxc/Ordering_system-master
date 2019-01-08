@@ -3,6 +3,7 @@ package com.example.user.ordering_system;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -13,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button first,second,third;
     ImageView scoll_view1,scoll_view2,scoll_view3,scoll_view4,scoll_view5,Horizon_view1,Horizon_view2,Horizon_view3,Horizon_view4,Horizon_view5,Horizon_view6;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
